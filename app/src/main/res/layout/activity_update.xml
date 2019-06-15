@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.activities.AddActivity">
+
+    <TextView
+        android:id="@+id/Welcome_update_page_text"
+        android:text="@string/please_update_data"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/update_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_yellow"
+        android:hint="Please enter ID"
+        android:layout_marginHorizontal="20dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_yellow"
+        android:hint="Please enter Name"
+        android:layout_marginHorizontal="20dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/update_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_yellow"
+        android:hint="Please enter Phone"
+        android:layout_marginHorizontal="20dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/update_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_yellow"
+        android:hint="Please enter Address"
+        android:layout_marginHorizontal="20dp"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/update_action_button"
+        android:text="Update"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:textColor="@color/light_yellow"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

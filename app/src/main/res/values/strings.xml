@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Hw_Database</string>
+    <string name="welcome_to_database_edit">Welcome to Database</string>
+    <string name="please_update_data">Please Update Data</string>
+    <string name="please_add_data">Please Add Data</string>
+</resources>
